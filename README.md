@@ -6,7 +6,6 @@
 
 browser should support :
 
-* Map()
 * Promise()
 * fetch()
 
