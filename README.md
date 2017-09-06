@@ -12,12 +12,12 @@ browser should support :
 
 ## Install
 
-copy `dynamic-import-polyfill.js` in your `./js/` directory
+copy `dynamic-import-polyfill.js` in your script directory
 
 add in `<head>`:
 
 ```html
-<script src="js/dynamic-import-polyfill.js"></script>
+<script src="./script/dynamic-import-polyfill.js"></script>
 ```
 
 ## Usage
