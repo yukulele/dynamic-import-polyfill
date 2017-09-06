@@ -18,7 +18,7 @@ add in `<head>`:
 
 ```html
 <script src="js/dynamic-import-polyfill.js"></script>
-````
+```
 
 ## Usage
 
@@ -27,9 +27,10 @@ because `import` is a reserved keyword, this polyfill use `_include` instead:
 ```javascript
 _import('module.js').then(() => {
   // ... module loaded
-})```
+})
+```
 
-Your `module.js` should use node syntaxe:
+Your `module.js` should use nodejs syntaxe:
 
 ```javascript
 var data = {
