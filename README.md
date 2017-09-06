@@ -30,7 +30,7 @@ _import('module.js').then(() => {
 })
 ```
 
-Your module should use `module.exports` nodejs syntaxe:
+Module should use `module.exports` nodejs syntaxe:
 
 ```javascript
 var data = {
