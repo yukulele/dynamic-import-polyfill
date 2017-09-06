@@ -22,7 +22,7 @@ add in `<head>`:
 
 ## Usage
 
-because `import` is a reserved keyword, this polyfill use `_include` instead:
+because `import` is a reserved keyword, this polyfill use `_import` instead:
 
 ```javascript
 _import('module.js').then(() => {
