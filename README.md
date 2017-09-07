@@ -6,8 +6,8 @@
 
 browser should support :
 
-* Promise()
-* fetch()
+* [Promise()](https://developer.mozilla.org//docs/Web/JavaScript/Reference/Global_Objects/Promise)
+* [fetch()](https://developer.mozilla.org//docs/Web/API/Fetch_API)
 
 ## Install
 
