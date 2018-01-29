@@ -39,3 +39,5 @@ var data = {
 
 module.exports = data
 ```
+
+URL is relative to the document's URL, and not to the script executing.
