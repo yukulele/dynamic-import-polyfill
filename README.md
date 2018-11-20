@@ -1,3 +1,5 @@
+**Deprecated**: this repository is no longer maintained, use this instead:  https://github.com/uupaa/dynamic-import-polyfill
+
 # dynamic `import()` polyfill
 
 [ES proposal: `import()`](https://github.com/tc39/proposal-dynamic-import) polyfill for browsers
