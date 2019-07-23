@@ -1,6 +1,11 @@
 {
   const map = []
   window._import = url => {
+    if (url.indexOf('./') === 0) {
+      const e = new Error();
+      const calledFile = e.stack.split('\n')[2].match(/[a-z]+:[^:]+/);
+      url = calledFile[0]+'/.'+url;
+    }
     if (url in map) {
       return map[url]
     }
