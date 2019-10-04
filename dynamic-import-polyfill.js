@@ -24,7 +24,7 @@
     if (!e.stack) return url
     const lines = e.stack.split('\n')
     if (!lines[0].includes('://')) lines.shift()
-    line = lines[2].match(/([a-z]+:.*)(:[0-9]+){2}$/)
+    const line = lines[2].match(/([a-z]+:.*)(:[0-9]+){2}$/)
     if (!line) return url
     return new URL(url, line[1]).href
   }
