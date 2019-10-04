@@ -3,5 +3,6 @@ module.exports = {
   fct(a) {
     return Math.random() * a
   },
-  bool: Math.random() < 0.5
+  bool: Math.random() < 0.5,
+  ok: true,
 }
